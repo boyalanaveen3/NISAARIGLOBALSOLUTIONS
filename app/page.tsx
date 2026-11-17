@@ -30,8 +30,15 @@ export default function Home() {
       >
         <div className="container mx-auto px-4">
           <nav className="flex justify-between items-center py-4">
-            <a href="#" className="text-xl font-bold text-indigo-600">
-              NISAARI GLOBAL SOLUTIONS
+            <a href="#" className="flex items-center gap-3">
+              <img
+                src="https://i.ibb.co/jkDshtZW/Whats-App-Image-2026-11-17-at-1-08-58-PM.jpg"
+                alt="NISAARI GLOBAL SOLUTIONS Logo"
+                className="h-12 w-auto rounded-lg"
+              />
+              <span className="text-xl font-bold text-indigo-600">
+                NISAARI GLOBAL SOLUTIONS
+              </span>
             </a>
             <ul className="flex gap-8 hidden md:flex">
               <li>
@@ -90,6 +97,11 @@ export default function Home() {
       {/* Hero Section */}
       <section id="home" className="pt-32 pb-20 text-center text-white">
         <div className="container mx-auto px-4">
+          <img
+            src="https://i.ibb.co/jkDshtZW/Whats-App-Image-2026-11-17-at-1-08-58-PM.jpg"
+            alt="NISAARI GLOBAL SOLUTIONS Logo"
+            className="h-32 w-auto mx-auto mb-8 rounded-2xl shadow-2xl animate-fade-in-up"
+          />
           <h1 className="text-4xl md:text-6xl font-bold mb-4 animate-fade-in-up">
             NISAARI GLOBAL SOLUTIONS
           </h1>
@@ -239,6 +251,11 @@ export default function Home() {
       {/* Footer */}
       <footer className="bg-gray-900 text-white py-8 text-center">
         <div className="container mx-auto px-4">
+          <img
+            src="https://i.ibb.co/jkDshtZW/Whats-App-Image-2026-11-17-at-1-08-58-PM.jpg"
+            alt="NISAARI GLOBAL SOLUTIONS Logo"
+            className="h-16 w-auto mx-auto mb-4 rounded-lg"
+          />
           <p className="opacity-80">
             &copy; 2024 NISAARI GLOBAL SOLUTIONS. All Rights Reserved.
           </p>
